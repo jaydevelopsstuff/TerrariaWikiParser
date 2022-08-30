@@ -8,6 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -147,6 +148,8 @@ public class Main {
 
         String itemsJson = gson.toJson(itemsArray);
 
-        Files.writeString(Paths.get("./items.json"), itemsJson);
+        FileWriter myWriter = new FileWriter("./items.json");
+        myWriter.write(itemsJson);
+        myWriter.close();
     }
 }
