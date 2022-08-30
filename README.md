@@ -2,7 +2,7 @@
 This program grabs and parses data from the Terraria wiki and then generates JSON files based on the data.
 
 ## How to use
-Currently, there pre compiled builds as of now, so you'll have to build it yourself.
+Currently, there are no pre compiled builds as of now, so you'll have to build it yourself.
 <br>
 Arguments:
 <br>
