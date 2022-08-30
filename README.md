@@ -3,8 +3,11 @@ This program grabs and parses data from the Terraria wiki and then generates JSO
 
 ## How to use
 Currently, there pre compiled builds as of now, so you'll have to build it yourself.
+<br>
 Arguments:
+<br>
 --prettyPrint - Makes the JSON output pretty print
+<br>
 --advanced - Retrieves extra data from each individual wiki page (this takes a long time).
 
 ## Pre Parsed Data
