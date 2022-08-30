@@ -11,6 +11,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -146,6 +147,6 @@ public class Main {
 
         String itemsJson = gson.toJson(itemsArray);
 
-        Files.writeString(Path.of("./items.json"), itemsJson);
+        Files.writeString(Paths.get("./items.json"), itemsJson);
     }
 }
